@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello</string>
+    <string name="app_name">Shopping Time</string>
+    <string name="ok_label">確認</string>
+    <string name="Scan_QR_Code">Scan QR Code</string>
+    <string name="Scan_BAR_Code">Scan BAR Code</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

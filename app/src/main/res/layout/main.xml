@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+<TableRow>
+    <TextView
+        android:id="@+id/cellphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="手機號碼："
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/CellPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone" />
+        
+</TableRow>
+
+<TableRow>
+
+    <TextView
+        android:id="@+id/carnum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="車號："
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="3"
+        android:inputType="number" />
+
+   
+</TableRow>
+<TableRow>
+   <Button
+        android:id="@+id/btnEND"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="END" />
+
+
+    <Button
+        android:id="@+id/btnOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK" />
+
+</TableRow>
+
+<RelativeLayout android:id="@+id/adcontainer"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_alignParentTop="true">
+	</RelativeLayout>
+
+</TableLayout>
